@@ -25,8 +25,8 @@ This project aims to detect shop names from a video source, extract and save the
 2. Install the required packages:
      > pip install -r requirements.txt
 ## Usage
-Run the **'video_process.py'** script with the required arguments:
-  $python video_process.py --intput_source <path_to_video_file> --weights <path_to_model_weights>
+Run the **'main.py'** script with the required arguments:\
+  $python main.py --intput_source <path_to_video_file> --weights <path_to_model_weights>
 ### Arguments
 * --intput_source: Path to the video source file.
 * --weights: Path to the YOLO model weights file. Default is best.pt.
@@ -36,6 +36,6 @@ Run the **'video_process.py'** script with the required arguments:
 ## License
 This project is licensed under the MIT License. See LICENSE for more details.
 ## Acknowledgments
-Ultralytics YOLO for object detection
-PaddleOCR for optical character recognition
+Ultralytics YOLO for object detection\
+PaddleOCR for optical character recognition\
 OpenCV for video processing
